@@ -12,3 +12,6 @@ Each observation (row) in this dataset is a review of a particular business by a
 The stars column is the number of stars (1 through 5) assigned by the reviewer to the business. (Higher stars is better.) In other words, it is the rating of the business by the person who wrote the review.
 The text column is the text of the review.
 ### Goal: Predict the star rating of a review using only the review text.
+
+## Comments on :
+At first glance, 48.6% accuracy does not seem very good, given that it is not much higher than the null accuracy. However, I would consider the 48.6% accuracy to be quite impressive, given that humans would also have a hard time precisely identifying the star rating for many of these reviews.
